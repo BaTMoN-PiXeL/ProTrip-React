@@ -1,0 +1,214 @@
+body{
+  background-color: rgb(37, 36, 36);
+  color:white;
+  font-size: 40px;
+  font-family: cursive;
+}
+
+.parent{
+  display: flex;
+  flex-flow: column;
+  padding: 20px;
+  margin-top: 150px;
+  align-items: center;
+}
+
+/* div{
+  border:2px solid white;
+} */
+
+.tripDetails{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  padding: 20px;
+}
+
+.radioButtons{
+  font-size: 20px;
+}
+
+.form{
+  font-size: 20px;
+  padding: 10px;
+  font-family: cursive;
+  background-color: rgba(20, 20, 20, 0.1);
+  box-shadow: rgb(0, 255, 255) 0px 10px 50px, rgba(103, 255, 2, 0) 0px 0px 0px 3px;
+  border-radius: 60px;
+  /* padding: 40px; */
+  position: relative;
+  top: -30px;
+  padding-top:30px;
+  padding-left:70px;
+  padding-right:70px;
+  padding-bottom:30px;
+  
+}
+
+.form>div{
+  margin-top: 10px;
+}
+
+.form>div>div>input, select{
+  font-size: 20px;
+  width: 250px;
+}
+
+.tripList{
+  display: grid;
+  grid-template-columns: 180px 150px 150px;
+
+  font-size: 20px;
+  max-height: 250px;
+  /* padding-left: 0px; */
+  /* padding-right: 30px; */
+  padding-top:20px;
+  /* align-items: center; */
+  justify-items: center;
+  /* justify-content: center; */
+  gap:10px;
+}
+
+#bord{
+  border:2px solid aqua;
+  box-shadow: rgb(0, 255, 255) 0px 10px 50px, rgba(103, 255, 2, 0) 0px 0px 0px 3px;
+  min-height: 250px;
+  border-radius: 30px;
+  padding-right:18px;
+}
+
+.tripList>div{
+  height:fit-content;
+}
+
+
+
+button{
+  padding: 10px;
+  font-size: 15px;
+}
+
+.links{
+  font-size: 25px;
+  padding: 10px;
+  text-decoration: none;
+  /* color: aqua; */
+  position: absolute;
+  top:290px;
+}
+
+
+a{
+  font-size: 25px;
+  padding: 15px;
+  text-decoration: none;
+  /* color: rgb(136, 225, 255); */
+  /* color:black; */
+  color:aqua;
+}
+
+#btnGet{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-left: 47%;
+  background-color: aqua;
+  /* border: 1px solid rgb(242, 242, 10); */
+  border-radius: 10px;
+  padding:15px;
+  font-weight: bold;
+  transition: ease-in-out .5s;
+  color: rgb(0, 0, 0);
+  position: relative;
+  left:-40px;
+  width:40%;
+}
+
+#btnGet:hover{
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  background-color: rgb(242, 242, 10);
+  color: rgb(1, 22, 12);
+  cursor: pointer;
+}
+
+.Header{
+   position:relative;
+   top:-90px;
+   font-size: 50px;
+}
+
+#date, #type, #place{
+  font-family: cursive;
+  background-color: rgb(252, 252, 252);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#type{
+  width:265px;
+  margin-top: 3px;
+}
+
+
+a:hover{
+  background-color:yellow;
+  border-radius: 20px;
+  transition:ease-in-out 500ms;
+  color: black;
+  padding:10px;
+}
+
+#first{
+  position:relative;
+  left:-130px;
+  top:100px;
+  
+}
+
+#sec{
+  position: relative;
+  top:93px;
+  left:35px;
+  padding:6px;
+}
+
+#third{
+  position: relative;
+  top:88px;
+  padding:11px;
+  left:160px;
+}
+
+#img3{
+  position: relative;
+  top:-11px;
+  left:25px;
+}
+
+#img2{
+  position: relative;
+  top:-11px;
+  left:40px;
+}
+
+#img1{
+  position: relative;
+  left:40px;
+}
+
+.totalTrips{
+  position:relative;
+  left:-35px;
+}
+
+#img0{
+  position: relative;
+  top:-60px;
+  left:140px;
+}
+
+.header{
+  position:relative;
+  top:-100px;
+  left:-5px;
+}
+
